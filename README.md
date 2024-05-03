@@ -1,1 +1,17 @@
 # Detect-Floods-in-Satellite-Imagery-Dubai-Flooding-Case-Study
+
+This article is a case study covering geospatial analysis of Dubai flooding using extensive use of satellite imagery tools.
+
+Very recently the world woke up to the news about Dubai Airport getting flooded due to a rare storm (more than 250 mm of rainfall in 24 hours!!). This created an opportunity for Geospatial Data Science enthusiasts to get going in the pursuit of finding the reason behind this flash flooding in a desert land. 
+
+In this scenario, clear satellite images are the most critical data resource, and we need to demonstrate a simple method of separating flooded and non-flooded areas. Luckily, Sentinel-2 captured two images on April 7th (pre-flood event) and 17th (post-flood event), mostly free of clouds over Dubai. Those images led to this analysis and case study, explaining how to detect flood events using satellite images.
+
+--Technical brief--
+
+In this article, we kick off by utilizing a Python script to fetch Sentinel-2 imagery of a flooded area in Dubai. 
+Next, employing the rasterio package, we'll decode the imagery and calculate the Normalized Difference Water Index (NDWI) by leveraging near-infrared and green bands. 
+Subsequently, we'll generate histograms of NDWI for both pre and post-flood images. 
+By juxtaposing these histograms, we can discern the transformation of dry regions in the pre-flood image into inundated areas in the post-flood image. 
+Ultimately, employing a threshold derived from the histogram analysis, we'll isolate the flooded pixels and delineate the submerged zones on a map.
+
+If this piques your interest, continue reading for more insights!
