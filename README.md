@@ -8,10 +8,10 @@ In this scenario, clear satellite images are the most critical data resource, an
 
 --Technical brief--
 
-In this article, we kick off by utilizing a Python script to fetch Sentinel-2 imagery of a flooded area in Dubai. 
-Next, employing the rasterio package, we'll decode the imagery and calculate the Normalized Difference Water Index (NDWI) by leveraging near-infrared and green bands. 
-Subsequently, we'll generate histograms of NDWI for both pre and post-flood images. 
-By juxtaposing these histograms, we can discern the transformation of dry regions in the pre-flood image into inundated areas in the post-flood image. 
-Ultimately, employing a threshold derived from the histogram analysis, we'll isolate the flooded pixels and delineate the submerged zones on a map.
+1. In this article, we kick off by utilizing a Python script to fetch Sentinel-2 imagery of a flooded area in Dubai. 
+2. Next, employing the rasterio package, we'll decode the imagery and calculate the Normalized Difference Water Index (NDWI) by leveraging near-infrared and green bands. 
+3. Subsequently, we'll generate histograms of NDWI for both pre and post-flood images. 
+4. By juxtaposing these histograms, we can discern the transformation of dry regions in the pre-flood image into inundated areas in the post-flood image. 
+5. Ultimately, employing a threshold derived from the histogram analysis, we'll isolate the flooded pixels and delineate the submerged zones on a map.
 
 If this piques your interest, continue reading for more insights!
