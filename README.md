@@ -1,4 +1,4 @@
-# Detect-Floods-in-Satellite-Imagery-Dubai-Flooding-Case-Study
+# Case Study on Dubai Flash floods (April 17, 2024) - How to detect floods using Satellite Imagery
 
 This article is a case study covering geospatial analysis of Dubai flooding using extensive use of satellite imagery tools.
 
