@@ -19,12 +19,12 @@ If this piques your interest, continue reading for more insights!
 
 # Table of Contents
 
-🌅 Introduction
-💾 Downloading Sentinel-2 Imagery
-⚙️ Clipping and Stacking Multispectral Bands
-📐 Calculation of NDWI
-📊 NDWI Histogram
-🗺️ Visualization of Flooded Areas
-📄 Conclusion
-📚 References
+1. 🌅 Introduction
+2. 💾 Downloading Sentinel-2 Imagery
+3. ⚙️ Clipping and Stacking Multispectral Bands
+4. 📐 Calculation of NDWI
+5. 📊 NDWI Histogram
+6. 🗺️ Visualization of Flooded Areas
+7. 📄 Conclusion
+8. 📚 References
 
