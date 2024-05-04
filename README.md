@@ -15,3 +15,15 @@ In this scenario, clear satellite images are the most critical data resource, an
 5. Ultimately, employing a threshold derived from the histogram analysis, we'll isolate the flooded pixels and delineate the submerged zones on a map.
 
 If this piques your interest, continue reading for more insights!
+
+
+# Table of Contents
+
+🌅 Introduction
+💾 Downloading Sentinel-2 Imagery
+⚙️ Clipping and Stacking Multispectral Bands
+📐 Calculation of NDWI
+📊 NDWI Histogram
+🗺️ Visualization of Flooded Areas
+📄 Conclusion
+📚 References
